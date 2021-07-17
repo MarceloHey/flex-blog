@@ -1,0 +1,19 @@
+@import "variables-mixings";
+
+body {
+  font-family: $font-family, Helvetica, Arial, sans-serif;
+  color: $text;
+}
+
+h1, h2 {
+  color: $title;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
